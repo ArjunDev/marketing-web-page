@@ -1,9 +1,12 @@
 import React from 'react'
+import BannerPage from '../banner';
 
 const HomePage = () => {
   console.log("home Page")
   return (
-    <div className='bg-amber-500 h-full w-full'>HomePage</div>
+    <div className='h-full w-full'>
+      <BannerPage/>
+    </div>
   )
 }
 

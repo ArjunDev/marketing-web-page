@@ -81,10 +81,12 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="h-full w-full flex justify-center items-center bg-blue-300">
+    <div className="h-full w-full flex justify-center items-center">
       <form
-        className="flex flex-col justify-center items-start shadow-lg rounded-lg p-6 py-8 w-[350px] md:w-[500px] h-auto bg-blue-100"
+        className="flex flex-col justify-center items-start shadow-md rounded-2xl p-6 py-8 w-[350px] md:w-[500px] h-auto bg-gradient-to-r from-indigo-50 to-white"
       >
+        <h3 className='font-medium mb-4'>Contact Us : </h3>
+
         {/* Name */}
         <input
           type="text"
@@ -94,6 +96,7 @@ const ContactPage = () => {
           onChange={handleChange}
           className="border rounded-lg p-1.5 w-full"
         />
+        
         {errors.name && <p className="text-red-500 text-sm px-1">{errors.name}</p>}
 
         {/* Email */}
@@ -125,7 +128,7 @@ const ContactPage = () => {
           <button
           type="submit"
           onClick={handleSubmit}
-          className="bg-blue-500 hover:bg-blue-400 w-max p-1 px-4 md:px-6 rounded-lg shadow-lg hover:cursor-pointer font-medium"
+          className="bg-indigo-600 text-white hover:bg-indigo-500 w-max p-1 px-4 md:px-6 rounded-lg shadow-lg hover:cursor-pointer font-medium"
         >Submit</button>
         </div>
       </form>
