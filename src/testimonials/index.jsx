@@ -34,13 +34,12 @@ const TestimonialsPage = () => {
 
 
   return (
-    <section id="testimonials" className="md:py-16 py-8 px-6 md:px-12 lg:px-24 bg-transparent">
+    <section id="testimonials" className="py-8 px-6 md:px-12 lg:px-24 bg-transparent">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 md:mb-6 mb-4">
-          What Our Clients Say
-        </h2>
-        <p className="text-lg text-gray-600 md:mb-12 mb-6">
-          Hear from businesses that trusted us with their digital growth.
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 md:mb-6 mb-4">What Our Clients Say</h2>
+
+        <p className="text-lg text-gray-600 md:mb-12 mb-6"
+        >Hear from businesses that trusted us with their digital growth.
         </p>
 
         <div className="grid md:gap-8 gap-4 md:grid-cols-3">

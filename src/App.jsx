@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div className='min-h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-violet-50'>
+    <div className='min-h-screen w-full bg-gradient-to-t from-violet-200 via-white to-blue-100'>
       <NavBar/>
       <Routes>
         <Route path="/" element={<HomePage />} />

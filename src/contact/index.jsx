@@ -81,9 +81,9 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="h-screen w-full flex justify-center items-center bg-gradient-to-br from-indigo-50 to-white">
+    <div className="h-screen w-full flex justify-center items-center bg-gradient-to-r from-indigo-100 to-violet-100">
       <form
-        className="flex flex-col justify-center items-start shadow-md rounded-2xl p-6 py-8 w-[350px] md:w-[500px] h-auto bg-gradient-to-bl from-indigo-50 to-white"
+        className="flex flex-col justify-center items-start shadow-md rounded-2xl p-6 md:py-8 py-4 w-[350px] md:w-[500px] h-auto bg-white"
       >
         <h3 className='font-medium mb-4'>Contact Us : </h3>
 
